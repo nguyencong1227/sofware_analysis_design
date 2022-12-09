@@ -1,0 +1,104 @@
+.Them_san_pham{
+    background-color:  rgb(235, 239, 247);
+    height: 720px;
+    font-family: sans-serif;
+}
+.head{
+    display: flex;
+    padding-top: 2%;
+    padding-left:5% ;
+}
+.head_quaylai{
+    width: 30%;
+}
+a{
+    /* color: #fffefe; */
+    text-decoration: none;
+    font-size: 20px;
+}
+.head_title{
+    width: 80%;
+    font-size: 20px;
+    margin-left: 2%;
+   }
+h1{
+    margin-left: 3%;
+}
+.main{
+    display: flex;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
+}
+.main_menu{
+    border-left: 3px solid white;
+    width: 30%;
+}
+.main_menu_item{
+    margin-left: 5%;
+    margin-right: 3%;
+
+}
+.item1{
+    border: 3px solid white ;
+    border-radius:15px ;
+    background-color: rgb(245, 246, 248);
+    padding-top: 5px;
+    color: blue;
+}
+.item4,.item2, .item3{
+    padding-top: 5px;
+    margin-top: 5%;
+}
+.main_body{
+    margin-left: 2%;
+    width: 90%;
+    border: 3px solid white ;
+    border-radius:15px ;
+    background-color: rgb(245, 246, 248);
+}
+h2,p,.list,input,h4,.button{
+     margin-left:5% ;
+}
+h2{
+    font-size: 25px;
+}
+h4{
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+p{
+    margin-right: 4%;
+    margin-top: 0%;
+}
+input{
+    width: 70%;
+    height: 10%;
+}
+select{
+    width: 35%;
+    height: 10%;
+    /* margin: 3%; */
+    margin-left:5% ;
+    margin-bottom: 2%;
+}
+.button{
+    background-color: rgb(48, 48, 232);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    text-align: center;
+    margin-right:80% ;
+    height: 10%;
+    font-size : 15px;
+    margin-bottom: 5%;
+    width: 20%;
+}
+a:link { 
+    color:rgb(3, 3, 3) ;
+    /* text-decoration: none; */
+}
+a:hover { 
+    color: rgb(255, 255, 255);
+}
+

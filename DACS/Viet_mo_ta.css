@@ -1,0 +1,118 @@
+.Dac_trung{
+    background-color:  rgb(235, 239, 247);
+    height: 720px;
+    font-family: sans-serif;
+}
+.head{
+    display: flex;
+    padding-top: 2%;
+    padding-left:5% ;
+}
+.head_quaylai{
+    width: 30%;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.head_title{
+    width: 80%;
+    font-size: 20px;
+    margin-left: 2%;
+   }
+h1{
+    margin-left: 3%;
+}
+.main{
+    display: flex;
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 2%;
+}
+.Dac_trung_body{
+    display: block;
+}
+.main_menu{
+    border-left: 3px solid white;
+    width: 30%;
+}
+.main_menu_item{
+    margin-left: 5%;
+    margin-right: 3%;
+
+}
+.item1,.item2,.item3,.item4{
+    border: 3px solid white ;
+    border-radius:15px ;
+    background-color: rgb(245, 246, 248);
+    padding-top: 5px;
+}
+.item4,.item2, .item3{
+    padding-top: 5px;
+    margin-top: 5%;
+}
+.Dac_trung_body{
+    display: block;
+}
+.main_body{
+    margin-left: 2%;
+    width: 90%;
+    border: 3px solid white ;
+    border-radius:15px ;
+    background-color: rgb(245, 246, 248);
+}
+.main_body{
+    display: flex;
+}
+textarea{
+    margin: 10px 10px 0 10px;
+    margin-bottom: 50px;
+}
+.input{
+    display: flex;
+    margin: 0 0 0 10% ;
+}
+label{
+    font-size: 20px;
+}
+input{
+    margin: 0 10px;
+    width: 50px;
+}
+.body_body_item{
+    display: flex;
+}
+.body_body_input{
+    display: flex;
+}
+.body_body_item2{
+    width: 30%;
+}
+.input{
+    display: flex;
+}
+input{
+    /* width: 85%; */
+    /* height: 15%; */
+}
+.button{
+    background-color: rgb(48, 48, 232);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    margin: 0 0 0 75%  ;
+    /* margin-right: 20%; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+     height: 10%;
+    font-size : 15px;
+    margin-top: 5%; 
+    width: 15%;
+}
+.button p{
+    margin: 5px;
+}
+
+
+

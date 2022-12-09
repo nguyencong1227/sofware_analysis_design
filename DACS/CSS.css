@@ -1,0 +1,318 @@
+*{
+    /* background-color: #e4ecf7; */
+    padding:0 0px ;
+    margin: 0;
+    text-decoration: none;
+}
+.Trangchu{
+    display: flex;
+    background-color: #e4ecf7;
+    height: 100vh;
+}
+.Trangchu_nav-menu{
+    width: 280px;
+    display: block;
+    font-size: 16px;
+}
+.Trangchu_nav-menu-buy{
+    /* display: flex;
+    flex-direction: column; */
+    width: 200px;
+    height: auto;
+    background-color: #E6EEFA;
+    -webkit-box-align: center;
+    text-align: center;
+    padding: 8px 16px 16px;
+    border-radius: 24px;
+    box-shadow: rgb(230, 224, 235) 8px 8px 20px , rgb(244, 252,255) -8px -8px 20px;
+}
+.Trangchu_nav-menu-buy i {
+    font-size: 50px;
+    height: 50px;
+}
+.Trangchu_nav-menu-buy h1{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.2px;
+    font-style: normal;
+}
+.Trangchu_nav-menu-buy p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0em;
+    /* font-family: Lato; */
+    color: rgb(106, 107, 107);
+}
+.Trangchu_nav-menu-buy button{
+    /* position: relative; */
+    background-color: rgb(90, 56, 254);
+    border-radius: 6px;
+    /* overflow: hidden; */
+    padding: 10px 32px 12px;
+    box-shadow: none;
+    white-space: nowrap;
+    text-transform: none;
+    /* letter-spacing: 0.2px; */
+    font-size: 14px;
+    width: 123px;
+    height: 42px;
+    border: none;
+    margin: 16px 0 0;
+    /* display: flex;
+    justify-content: center; */
+}
+.Trangchu_nav-menu-buy a{
+    color: #fff;
+}
+.Trangchu_nav-menu img{
+    width: 280px;
+    height: 75px;
+}
+.Trangchu_nav-menu-buy button
+.Trangchu_nav-menu-tools{
+    padding: 0 20px;
+}
+.tools,.tools1 {
+    width: 190px;
+    position: relative;
+    padding: 10px 14px;
+}
+
+.tools__header {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px 20px;
+}
+
+.menu__tools--active,.menu__tools--active1 {
+    color: blue;
+    height: auto;
+}
+
+.tools__header i,.tools__header1 i {
+    margin-left: 5px;
+    font-size: 13px;
+}
+
+.tools__content,.tools__content1 {
+    border-left: 1px solid #999;
+    height:auto;
+    width: 160px;
+    overflow: hidden;
+    transition: all 0.3s linear;
+    visibility: hidden;
+    margin: 4px 0 0 20px;
+}
+
+.tools__list-content,.tools__list-content1 {
+    list-style-type: none;
+}
+
+.tools__item-content,.tools__item-content1 {
+    padding: 10px;
+}
+
+.tools__item-content:hover {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.tools__item-content--active {
+    color: blue;
+}
+
+.menu__icon-arrow-up{
+    display: none;
+}
+.Trangchu_nav-body{
+    width: 100%;
+}
+.Trangchu_nav-body-headr-login{
+    /* height: 74px; */
+    display: flex;
+    justify-content: center;
+}
+.login{
+    border-radius: 0px  0 50px 50px ;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 1px 5px 5px rgb(211, 209, 209);
+    width: 732px;
+    /* height: 52px; */
+    background-color: white;
+
+}
+.login button {
+    padding: 5px;
+    height: 33px;
+    border-radius: 10px;
+    border: 3px solid rgb(90, 56, 254);
+    margin: 10px 5px;
+    background-color: #fff;
+    color:rgb(90, 56, 254);
+    font-size: 16px;
+}
+.login_acc ul{
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+}
+.login_acc ul li{
+    padding: 2px;
+}
+.fa-regular{
+    background-color: rgb(164, 160, 160);
+    border-radius: 16px;
+    padding: 10%;
+    /* width: 20px;
+    height: 20px; */
+}
+p{
+    color: black;
+}
+a{
+    color:rgb(90, 56, 254);
+}
+.Trangchu_nav-body-content{
+    padding: 8px 24px 24px;
+}
+.Trangchu_nav-body-headr-title{
+    padding: 0px 0px 32px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.header-title-button{
+    display: flex;
+}
+.Trangchu_nav-body-main{
+    padding: 24px 0 0 ;
+}
+.Trangchu_nav-body-main-items{
+    /* background-color: black; */
+    padding: 8px 24px 24px;
+}
+.Trangchu_nav-body-main 
+h1{
+    font-size: 40px;
+}
+.Trangchu_nav-body-headr-title{
+    padding:  0 0 32px;
+}
+.header-title-button button{
+    width: 225px;
+    padding: 10px 32px 12px;
+    margin: 0 0 0 16px;
+    border-radius:10px ;
+    font-size: 14px;
+}
+.header-title-button1{
+    border: 3px solid rgb(90, 56, 254);
+    background-color:rgb(90, 56, 254) ;
+    color: #fff;
+}
+.header-title-button2{
+    border: 3px solid rgb(90, 56, 254);
+    color: rgb(90, 56, 254);
+}
+.Trangchu_nav-body-body-title{
+    border: 2px solid white;
+    /* height: 400px; */
+    background-color: #F2f6fC;
+    border-radius: 16px;
+    padding: 24px;
+}
+.Chon-quoc-gia{
+    display: flex;
+    justify-content: right;
+}
+.Trangchu_nav-body-body-title select{
+    padding: 8.5px 14px 8.5px 14px;
+    width: auto;
+    height: 37px;
+    margin-left: 0px;
+}
+.Adj{
+    display: flex; 
+    font-size: 20px;
+}
+.Adj h4{
+    padding: 16px;
+    height: 19px;
+}
+.SanPham{
+    height: 53px;
+    width: 193px;
+}
+.Chatluong{
+    width: 255px;
+}
+.CapNhat{
+    width: 320px;
+}
+.Main{
+    width: 100%;
+    /* height: 138px; */
+    padding: 16px;
+    border-top: 1px solid rgb(204, 203, 203);
+}
+.Main div p{
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31.2px;
+    font-style: normal;
+    font-size: 24px;
+    margin: 16px 0 0;
+}
+.Main button{
+    height: 43px;
+    width: 275px;
+    border: 3px solid rgb(90, 56, 254);
+    background-color:rgb(90, 56, 254) ;
+    border-radius: 10px;
+}
+.Main button a{
+    color: #fff;
+    font-size: 16px;
+    margin: 1%;
+}
+.btn{
+    margin: 16px 0 0;
+    display: flex;
+    justify-content: center;
+}
+.Trangchu_nav-footer{
+    padding: 16px 0 0;
+    display: flex;
+    justify-content: center;
+}
+.Trangchu_nav-footer-img{
+    width: 541px;
+    height: 99px;
+    padding: 5px;
+    display: flex;
+    border: 2px solid white;
+    background-color: #F2f6fC;
+    border-radius: 16px;
+    justify-content: space-between;
+}
+.Trangchu_nav-footer-img img{
+    width: 202px;
+    border-radius: 16px;
+}
+.Trangchu_nav-footer-item{
+    justify-content: center;
+    display: block;
+}
+.Trangchu_nav-footer-item h4{
+    font-size: 17px;
+    padding: 8px 8px 0;
+}
+.Trangchu_nav-footer-itemlink a {
+    padding: 10px 32px 12px;
+    font-size: 17px;
+}
