@@ -1,0 +1,279 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'PoPPins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    overflow-x: hidden;
+}
+
+body a {
+    text-decoration: none;
+    color: #000;
+}
+
+.df {
+    display: flex;
+}
+
+.pt10 {
+    padding-top: 10px;
+}
+
+.pb70 {
+    padding-bottom: 70px;
+}
+
+.mr15 {
+    margin-right: 15%;
+}
+
+.mb15 {
+    margin-bottom: 15px;
+}
+
+.mb20 {
+    margin-bottom: 20px;
+}
+
+.col-2-5 {
+    width: 40%;
+}
+
+.flex {
+    flex: 1;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 15px 15px rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+}
+
+.group {
+    display: flex;
+    align-items: center;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+}
+
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    position: relative;
+    text-decoration: none;
+    font-size: 1em;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+header ul li a::before {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    width: 100%;
+    height: 2px;
+    background: #333;
+    transform: scaleX(0);
+    transition: transform 0.5s ease-in-out;
+    transform-origin: right;
+}
+
+header ul li a:hover::before {
+    transform: scaleX(1);
+    transform-origin: left;
+}
+
+.btn {
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: transparent;
+}
+
+.btn a {
+    padding: 9px 25px;
+    border-radius: 5px;
+}
+
+.btn-1 {
+    background-color: #f6e049;
+}
+
+.btn-2 a {
+    background-color: #a789f5;
+    font-size: 20px;
+    color: #fff;
+    padding: 15px 50px;
+}
+
+.btn:hover a {
+    color: #4054b2;
+}
+
+.btn-1:hover a {
+    background-color: #4054b2;
+    color: #fff;
+}
+
+.btn-2:hover a {
+    transform: translate(19px, 14.9px);
+}
+
+
+.menuToggle {
+    position: relative;
+    display: none;
+}
+
+/* wrapper */
+.wrapper {
+    padding: 60px 0 0;
+}
+
+.content {
+    width: 85%;
+    margin: auto;
+    padding: 80px 0 0;
+}
+
+.title {
+    color: #000;
+    font-size: 60px;
+    font-weight: 700;
+    text-transform: none;
+}
+
+.paragraph {
+    font-size: 24px;
+    font-weight: 400;
+    text-transform: none;
+    line-height: 30px;
+}
+
+
+.text-small {
+    font-size: 0.9rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+.form-control {
+    background: #212529;
+    border-color: #545454;
+}
+
+.form-control:focus {
+    background: #212529;
+}
+
+footer {
+    background: #212529;
+}
+
+
+
+
+
+
+
+
+/* RESPONSIVE */
+@media (max-width:800px) {
+    .searchBtn {
+        left: 0;
+    }
+
+    .menuToggle {
+        position: absolute;
+        display: block;
+        font-size: 2em;
+        cursor: pointer;
+        transform: translateX(30px);
+        z-index: 10;
+    }
+
+    header .navigation {
+        position: absolute;
+        opacity: 0;
+        visibility: hidden;
+        left: 100%;
+    }
+
+    @keyframes showNav {
+        0% {
+            transform: translateY(-50px);
+            opacity: 0;
+        }
+
+        60% {
+            opacity: 0.6;
+        }
+
+        100% {
+            transform: translateY(0);
+        }
+    }
+
+    header.open .navigation {
+        top: 80px;
+        opacity: 1;
+        visibility: visible;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        width: 100%;
+        height: calc(100vh - 80px);
+        padding: 40px;
+        border-top: 1px solid rgba(0, 0, 0, 0.05);
+        animation: showNav linear .3s;
+    }
+
+    header.open .navigation li a {
+        font-size: 1.25em;
+    }
+
+    .hide {
+        display: none;
+    }
+}
